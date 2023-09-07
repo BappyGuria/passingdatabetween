@@ -18,7 +18,8 @@ class MyApp extends StatelessWidget {
       ),
       home: Column(
         children: [
-
+          Text('Hello Word!'),
+          Text('Hello APP!'),
         ],
       ),
     );
