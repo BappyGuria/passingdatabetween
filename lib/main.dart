@@ -16,22 +16,13 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: MyHomePage(),
+      home: Column(
+        children: [
+
+        ],
+      ),
     );
   }
 }
 
 
-class  extends StatefulWidget {
-  const ({super.key});
-
-  @override
-  State<> createState() => _State();
-}
-
-class _State extends State<> {
-  @override
-  Widget build(BuildContext context) {
-    return const Placeholder();
-  }
-}
